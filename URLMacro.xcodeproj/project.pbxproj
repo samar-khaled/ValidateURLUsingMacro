@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		612AA5642DA5407D00E76B71 /* StaticURL in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA5632DA5407D00E76B71 /* StaticURL */; };
+		612AA56F2DA5411B00E76B71 /* StaticURL in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA56E2DA5411B00E76B71 /* StaticURL */; };
+		612AA5712DA5411B00E76B71 /* StaticURLClient in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA5702DA5411B00E76B71 /* StaticURLClient */; };
+		612AA5742DA5413600E76B71 /* StaticURL in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA5732DA5413600E76B71 /* StaticURL */; };
+		612AA5762DA5413600E76B71 /* StaticURLClient in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA5752DA5413600E76B71 /* StaticURLClient */; };
+		612AA5812DA5415A00E76B71 /* StaticURL in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA5802DA5415A00E76B71 /* StaticURL */; };
+		612AA5832DA5415A00E76B71 /* StaticURLClient in Frameworks */ = {isa = PBXBuildFile; productRef = 612AA5822DA5415A00E76B71 /* StaticURLClient */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		612AA54E2DA53CCC00E76B71 /* URLMacro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLMacro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +33,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612AA5832DA5415A00E76B71 /* StaticURLClient in Frameworks */,
+				612AA5742DA5413600E76B71 /* StaticURL in Frameworks */,
+				612AA56F2DA5411B00E76B71 /* StaticURL in Frameworks */,
+				612AA5812DA5415A00E76B71 /* StaticURL in Frameworks */,
+				612AA5642DA5407D00E76B71 /* StaticURL in Frameworks */,
+				612AA5712DA5411B00E76B71 /* StaticURLClient in Frameworks */,
+				612AA5762DA5413600E76B71 /* StaticURLClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,13 @@
 			);
 			name = URLMacro;
 			packageProductDependencies = (
+				612AA5632DA5407D00E76B71 /* StaticURL */,
+				612AA56E2DA5411B00E76B71 /* StaticURL */,
+				612AA5702DA5411B00E76B71 /* StaticURLClient */,
+				612AA5732DA5413600E76B71 /* StaticURL */,
+				612AA5752DA5413600E76B71 /* StaticURLClient */,
+				612AA5802DA5415A00E76B71 /* StaticURL */,
+				612AA5822DA5415A00E76B71 /* StaticURLClient */,
 			);
 			productName = URLMacro;
 			productReference = 612AA54E2DA53CCC00E76B71 /* URLMacro.app */;
@@ -94,6 +118,9 @@
 			);
 			mainGroup = 612AA5452DA53CCC00E76B71;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				612AA5722DA5413600E76B71 /* XCLocalSwiftPackageReference "StaticURL" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 612AA54F2DA53CCC00E76B71 /* Products */;
 			projectDirPath = "";
@@ -324,6 +351,44 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		612AA5722DA5413600E76B71 /* XCLocalSwiftPackageReference "StaticURL" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = StaticURL;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		612AA5632DA5407D00E76B71 /* StaticURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURL;
+		};
+		612AA56E2DA5411B00E76B71 /* StaticURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURL;
+		};
+		612AA5702DA5411B00E76B71 /* StaticURLClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURLClient;
+		};
+		612AA5732DA5413600E76B71 /* StaticURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURL;
+		};
+		612AA5752DA5413600E76B71 /* StaticURLClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURLClient;
+		};
+		612AA5802DA5415A00E76B71 /* StaticURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURL;
+		};
+		612AA5822DA5415A00E76B71 /* StaticURLClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StaticURLClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 612AA5462DA53CCC00E76B71 /* Project object */;
 }

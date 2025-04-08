@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import StaticURL
 
 struct ContentView: View {
     var body: some View {
@@ -14,6 +15,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            let url = #staticURL("https://swiftbysundell.com")
         }
         .padding()
     }
